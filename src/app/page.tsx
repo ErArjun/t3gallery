@@ -1,5 +1,6 @@
-import Link from "next/link";
 import { db } from "~/server/db";
+
+export const dynamic="force-dynamic"
 
 const mockUrls=[
   'https://utfs.io/f/faf993c9-fe87-4084-8879-2f45d3a88553-i5inxt.jpg',
@@ -14,7 +15,6 @@ const mockImages=mockUrls.map((url,index)=>({
 }))
 export default async function HomePage() {
   const posts= await db.query.posts.findMany()
-  console.log(posts)
   return (
     <main>
       <div className="flex flex-wrap gap-4">
