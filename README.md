@@ -1,4 +1,4 @@
-# Create T3 App
+<!-- # Create T3 App
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
@@ -26,4 +26,20 @@ You can check out the [create-t3-app GitHub repository](https://github.com/t3-os
 
 ## How do I deploy this?
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information. -->
+
+#T3 Gallery
+
+##TODO
+
+-[] Make it deploy (vercel)
+-[] Scaffold basic ui with mock data
+-[] Actually set up a database (vercel postgres)
+-[] Attach database to ui
+-[] Add authentication (w/ clerk)
+-[] Add image upload
+-[] Error management (w/ Santry)
+-[] Routing/image page(parallel route)
+-[] Delete button (w/ Server Actions)
+-[] Analytics (posthog)
+-[] Ratelimiting (upstash)
