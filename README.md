@@ -42,7 +42,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Attach database to ui
 
--[ ] Add authentication (w/ clerk)
+-[x] Add authentication (w/ clerk)
 
 -[ ] Add image upload
 
