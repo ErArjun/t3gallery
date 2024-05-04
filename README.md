@@ -44,7 +44,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Add authentication (w/ clerk)
 
--[ ] Add image upload
+-[x] Add image upload
 
 -[ ] "taint" (server-only)
 
