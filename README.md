@@ -46,6 +46,8 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[ ] Add image upload
 
+-[] "taint" (server-only)
+
 -[ ] Error management (w/ Santry)
 
 -[ ] Routing/image page(parallel route)
