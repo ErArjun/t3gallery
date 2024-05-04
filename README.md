@@ -38,9 +38,9 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Tidy up build process
 
--[ ] Actually set up a database (vercel postgres)
+-[x] Actually set up a database (vercel postgres)
 
--[ ] Attach database to ui
+-[x] Attach database to ui
 
 -[ ] Add authentication (w/ clerk)
 
