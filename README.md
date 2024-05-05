@@ -52,7 +52,7 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Error management (w/ Santry)
 
--[ ] Routing/image page(parallel route)
+-[x] Routing/image page(parallel route)
 
 -[ ] Delete button (w/ Server Actions)
 
