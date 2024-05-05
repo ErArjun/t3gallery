@@ -46,9 +46,9 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Add image upload
 
--[ ] "taint" (server-only)
+-[x] "taint" (server-only)
 
--[ ] use Next/Image component
+-[x] use Next/Image component
 
 -[ ] Error management (w/ Santry)
 
