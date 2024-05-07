@@ -56,10 +56,10 @@ Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/ver
 
 -[x] Update upload button
 
--[ ] ShadcnUI (specifically toasts)
-
--[ ] Delete button (w/ Server Actions)
+-[x] ShadcnUI (specifically toasts)
 
 -[ ] Analytics (posthog)
+
+-[ ] Delete button (w/ Server Actions)
 
 -[ ] Ratelimiting (upstash)
