@@ -5,6 +5,7 @@ import { images } from './db/schema';
 import { and, eq } from 'drizzle-orm';
 import { redirect } from "next/navigation";
 import analyticsServerClient from './analytics';
+import { revalidatePath } from 'next/cache';
 
 export async function getMyImages(){
   const user =auth()
@@ -13,6 +14,7 @@ export async function getMyImages(){
         where:(model,{eq})=>eq(model.userId,user.userId), 
         orderBy:(model,{desc})=>desc(model.id)
       })
+
       return images;
 }
 
@@ -47,7 +49,6 @@ export async function deleteImage(id:number){
     }
   })
 
-// revalidatePath("/");
+// revalidatePath("/")
 redirect("/")
-
 }

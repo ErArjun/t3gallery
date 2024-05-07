@@ -33,9 +33,9 @@ export default function RootLayout({
 }) {
   return (
     <ClerkProvider>
-      <CSPostHogProvider>
-    <html lang="en">
-    <NextSSRPlugin
+    <CSPostHogProvider>
+      <html lang="en">
+        <NextSSRPlugin
           /**
            * The `extractRouterConfig` will extract **only** the route configs
            * from the router to prevent additional information from being
@@ -44,19 +44,17 @@ export default function RootLayout({
            */
           routerConfig={extractRouterConfig(ourFileRouter)}
         />
-      <body className={`font-sans ${inter.variable} dark`}>
-        <div className="h-screen grid grid-rows-[auto,1fr]">
-        <TopNav/>
-        <main className="overflow-y-scroll">
-        {children}
-        </main>
-        </div>
-        {modal}
-        <div id="modal-root" />
-        <Toaster/>
+        <body className={`font-sans ${inter.variable} dark`}>
+          <div className="grid h-screen grid-rows-[auto,1fr]">
+            <TopNav />
+            <main className="overflow-y-scroll">{children}</main>
+            {modal}
+          </div>
+          <div id="modal-root" />
+          <Toaster />
         </body>
-    </html>
+      </html>
     </CSPostHogProvider>
-    </ClerkProvider>
+  </ClerkProvider>
   );
 }

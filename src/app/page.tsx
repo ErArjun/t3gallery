@@ -25,7 +25,6 @@ async function Images(){
   </div>
 }
 export default async function HomePage() {
- 
   return (
     <main>
       <SignedOut>
